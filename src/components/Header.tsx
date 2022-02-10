@@ -8,11 +8,7 @@ export const Header: React.VFC = memo(() => {
   useEffect(() => {}, [])
 
   // return
-  return (
-    <div>
-      <div>Header2</div>
-    </div>
-  )
+  return <div>Header1</div>
 })
 
 Header.displayName = 'Header'
