@@ -10,7 +10,7 @@ export const Header: React.VFC = memo(() => {
   // return
   return (
     <div>
-      <div>Header</div>
+      <div>Header2</div>
     </div>
   )
 })
