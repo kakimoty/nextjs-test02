@@ -3,7 +3,7 @@ import { memo, useEffect } from 'react'
 import { SysConst } from '../lib/SysConst'
 
 // Header
-export const Header: React.VFC = memo(() => {
+export const Header: React.FC = memo(() => {
   // useEffect
   useEffect(() => {}, [])
 
