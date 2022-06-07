@@ -1,5 +1,7 @@
 import { memo } from 'react'
 
+import { ToastContainer } from 'react-toastify'
+
 import { Header } from './Header'
 import { Footer } from './Footer'
 
@@ -20,9 +22,9 @@ export const Layout: React.FC<Props> = memo(({ children }) => {
       <Footer />
 
       {/* React-Toastify */}
-      {/* <div className="container mb-5 pb-5">
+      <div className="container mb-5 pb-5">
         <ToastContainer />
-      </div> */}
+      </div>
     </>
   )
 })
