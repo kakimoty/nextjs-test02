@@ -12,5 +12,4 @@ module.exports = withBundleAnalyzer({
     dirs: ['src/pages/', 'src/components/', 'src/lib/', 'src/hooks', 'src/models'],
   },
   swcMinify: true,
-  webpack5: true,
 })
